@@ -1,0 +1,79 @@
+*{
+    margin: 0; padding: 0;
+    font-family: sans-serif;
+}
+header{
+    height: 750px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Images/hero.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: -135px ;
+}
+.nav{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.logo{
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+.logo img{
+    width: 22%;
+}
+.menu{
+    width: 50%;
+    padding: 20px;
+    margin: auto 0px;
+}
+.omni{
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.menu a:link, .menu a:visited{
+    text-decoration: none;
+    color: rgb(222, 222, 222);
+    padding: 20px 0px;
+    margin: 0px 20px;
+    border-bottom: 2px solid transparent;
+}
+.menu a:hover,
+.menu a:active{
+    border-bottom: 2px solid #e67622;
+    transition: 0.4s;
+}
+.hero{
+    width: 55%;
+    color: rgb(222, 222, 222);
+    position: relative;
+    top: 160px;
+    left: 190px;
+}
+.herohead{
+    font-size: 50px;
+}
+.buttons{
+    color:#e67622;
+    font-size: 17.5px;
+    padding: 11px 30px;
+    margin: 20px 5px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid #e67622;
+}
+.buttons:hover{
+    background-color: #e67622;
+    color: rgb(222, 222, 222);
+    transition: 0.4s;
+}
+.on{
+    margin-right: 10px;
+    color: rgb(222, 222, 222);
+    background-color: #e67622;
+}
+.on:hover{
+    background-color: #ca681d;
+}
